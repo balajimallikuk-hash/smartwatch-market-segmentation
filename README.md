@@ -37,15 +37,42 @@ The analysis combines unsupervised machine learning, statistical testing, segmen
 - Conduct sensitivity analysis to examine how scores change under alternative weighting assumptions.
 - Explore potential partner fit and willingness-to-pay patterns.
 
-## Key findings
 
-Replace this section with findings from the actual model outputs.
+## Key Findings
 
-- **Number of segments:** [Insert the selected number and explain why.]
-- **Segment profiles:** [Describe each segment using its observed characteristics.]
-- **Most attractive segment:** [Insert the result and supporting evidence.]
-- **Partner fit:** [Summarise the actual partner-fit results.]
-- **Willingness to pay:** [Summarise the observed pattern and its business implications.]
+### 1. Three consumer segments
+
+The analysis develops a three-segment solution for the smartwatch market:
+
+- **Social Wellness:** A segment to investigate for interest in health, well-being, and related smartwatch features.
+- **Always-On Pros:** A segment to investigate for communication, timely information, and productivity-related features.
+- **Casual Snappers:** A segment to investigate for photography, style, and creative communication features.
+
+These names are used in the analysis, but their defining characteristics should be confirmed against the calculated segment profiles.
+
+### 2. Data-driven segmentation
+
+The project compares K-Means and Ward hierarchical clustering and evaluates candidate cluster solutions using multiple metrics, including silhouette score, Calinski-Harabasz score, and Davies-Bouldin score.
+
+It also examines bootstrap and split-half stability to investigate whether the segmentation is sensitive to changes in the sample.
+
+### 3. Consumer profiling
+
+The analysis compares the segments across 12 smartwatch attribute-importance ratings and additional respondent characteristics. Statistical tests are used to investigate differences in preferences, willingness to pay, and selected demographic and behavioural descriptors.
+
+### 4. Commercial attractiveness
+
+A weighted scoring framework evaluates the segments using size, willingness to pay, income, consumer needs, strategic fit, and accessibility. Equal-weight and alternative-weight analyses are included to examine how sensitive the rankings are to the chosen assumptions.
+
+### 5. Potential strategic partners
+
+The project compares the potential fit of Google, Amazon, and Aetna with the identified segments, using relevant smartwatch feature preferences and selected ecosystem indicators.
+
+It also examines stated willingness-to-pay patterns to explore potential pricing opportunities.
+
+### Limitations
+
+The findings reflect the available respondent sample and should not automatically be generalised to the entire smartwatch market. Segment names are interpretations of observed patterns, and attractiveness and partner-fit scores depend partly on chosen assumptions and scoring rules. Willingness to pay is not a guarantee of actual purchases or profitability.
 
 ## Tools and technologies
 
